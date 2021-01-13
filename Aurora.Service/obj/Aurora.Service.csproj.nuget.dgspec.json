@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Service/Aurora.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj",
+        "projectName": "Aurora.Domain",
+        "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj",
+        "packagesPath": "/Users/wevertondionisio/.nuget/packages/",
+        "outputPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wevertondionisio/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Infra.Data/Aurora.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Infra.Data/Aurora.Infra.Data.csproj",
+        "projectName": "Aurora.Infra.Data",
+        "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Infra.Data/Aurora.Infra.Data.csproj",
+        "packagesPath": "/Users/wevertondionisio/.nuget/packages/",
+        "outputPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wevertondionisio/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj": {
+                "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.69.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Service/Aurora.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Service/Aurora.Service.csproj",
+        "projectName": "Aurora.Service",
+        "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Service/Aurora.Service.csproj",
+        "packagesPath": "/Users/wevertondionisio/.nuget/packages/",
+        "outputPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wevertondionisio/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj": {
+                "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj"
+              },
+              "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Infra.Data/Aurora.Infra.Data.csproj": {
+                "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Infra.Data/Aurora.Infra.Data.csproj"
+              },
+              "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Infra.Shared/Infra.Shared.csproj": {
+                "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Infra.Shared/Infra.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Infra.Shared/Infra.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Infra.Shared/Infra.Shared.csproj",
+        "projectName": "Infra.Shared",
+        "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Infra.Shared/Infra.Shared.csproj",
+        "packagesPath": "/Users/wevertondionisio/.nuget/packages/",
+        "outputPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Infra.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wevertondionisio/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj": {
+                "projectPath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

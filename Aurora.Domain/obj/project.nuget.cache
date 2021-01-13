@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pv7jUNdqLpaec5rsfWOCUgcyAqWWs40Ft67A8PwhzkVZ0T1M1aJE84Kda665Dou/qQzdVEfTbYukcDpb7QuSrw==",
+  "success": true,
+  "projectFilePath": "/Users/wevertondionisio/Documents/Workspace/Desafios/desafio_desenvolvendo_sua_aplica-o_com_C-_usando_DDD/desafio_desenvolvendo_sua_aplicacao_com_C_usando_DDD/Aurora.Domain/Aurora.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/wevertondionisio/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
